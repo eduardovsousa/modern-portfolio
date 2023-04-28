@@ -13,3 +13,6 @@ Link da demo em breve
 
 - [framer-motion](https://www.framer.com/motion/) <br />
 - [Tailwind css](https://tailwindcss.com/) <br />
+
+## Index
+![](public/images/home-page.png)

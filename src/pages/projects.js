@@ -9,7 +9,7 @@ import { GithubIcon } from "@/components/Icons";
 import { motion } from "framer-motion";
 import TransitionEffect from "@/components/TransitionEffect";
 
-// import project0 from "../../public/images/projects/project.png";
+import project1 from "../../public/images/projects/project1.png";
 import project2 from "../../public/images/projects/project2.png";
 import project3 from "../../public/images/projects/project3.png";
 import project4 from "../../public/images/projects/project4.jpg";
@@ -155,7 +155,7 @@ const projects = () => {
             <div className="col-span-12">
               <FeaturedProject
                 title="Meu Portfólio"
-                img={project2}
+                img={project1}
                 summary="Site usado como portfólio. Visite!! :)"
                 link="https://evsdeveloper.vercel.app/"
                 github="/https://github.com/eduardovsousa"
