@@ -12,11 +12,12 @@ import TransitionEffect from "@/components/TransitionEffect";
 import project1 from "../../public/images/projects/project1.png";
 import project2 from "../../public/images/projects/project2.png";
 import project3 from "../../public/images/projects/project3.png";
-import project4 from "../../public/images/projects/project4.jpg";
+import project4 from "../../public/images/projects/project4.png";
 import project5 from "../../public/images/projects/project5.png";
 import project6 from "../../public/images/projects/project6.png";
 import project7 from "../../public/images/projects/project7.png";
 import project8 from "../../public/images/projects/project8.png";
+import project9 from "../../public/images/projects/project9.jpg";
 
 const FramerImage = motion(Image);
 
@@ -158,7 +159,7 @@ const projects = () => {
                 img={project1}
                 summary="Site usado como portfólio. Visite!! :)"
                 link="https://evsdeveloper.vercel.app/"
-                github="/https://github.com/eduardovsousa"
+                github="https://github.com/eduardovsousa"
                 type="Projeto em destaque"
               />
             </div>
@@ -167,8 +168,29 @@ const projects = () => {
                 title="Portfólio Landing Page"
                 img={project2}
                 summary="Porfólio simples feito com React, TypeScript e styled-components."
-                link="/"
+                link="https://simple-portfolio-eduardovsousa.vercel.app/"
                 github="https://github.com/eduardovsousa/simple-portfolio"
+                type="Projeto em destaque"
+              />
+            </div>
+            <div className="col-span-6 sm:col-span-12">
+              <Project
+                title="WaiterApp"
+                img={project9}
+                summary="Um projeto que tem como finalidade auxiliar restaurantes a controlar seus pedidos através de um app. Onde é possível realizar os pedidos e automaticamente serem enviados para um dashboard web, sendo tudo em tempo real."
+                link="https://www.linkedin.com/posts/eduardovsousa_react-node-mongodb-activity-7036386325993861120-kodA?utm_source=share&utm_medium=member_desktop"
+                github="https://github.com/eduardovsousa/WaiterApp"
+                type="Projeto em destaque"
+              />
+            </div>
+
+            <div className="col-span-12">
+              <FeaturedProject
+                title="NFT Store"
+                img={project4}
+                summary="Um projeto divertido e descontraído para a comercialização de NFTs"
+                link="https://nft-site-three.vercel.app/"
+                github="https://github.com/eduardovsousa/nft-site"
                 type="Projeto em destaque"
               />
             </div>
@@ -179,17 +201,6 @@ const projects = () => {
                 summary="Site criado usando como inspiração a página do SpaceX, com HTML, CSS e Bootstrap."
                 link="https://clone-spacex-by-evs.netlify.app/"
                 github="https://github.com/eduardovsousa/Clone-SpaceX"
-                type="Projeto em destaque"
-              />
-            </div>
-
-            <div className="col-span-12">
-              <FeaturedProject
-                title="WaiterApp"
-                img={project4}
-                summary="Um projeto que tem como finalidade auxiliar restaurantes a controlar seus pedidos através de um app. Onde é possível realizar os pedidos e automaticamente serem enviados para um dashboard web, sendo tudo em tempo real."
-                link="https://www.linkedin.com/posts/eduardovsousa_react-node-mongodb-activity-7036386325993861120-kodA?utm_source=share&utm_medium=member_desktop"
-                github="https://github.com/eduardovsousa/WaiterApp"
                 type="Projeto em destaque"
               />
             </div>
